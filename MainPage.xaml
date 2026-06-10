@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiPt2L14.MainPage">
+
+    <VerticalStackLayout Padding="30" Spacing="20">
+
+        <Label Text="School App"
+               FontSize="30"
+               HorizontalOptions="Center" />
+
+        <Label Text="Welcome to my app"
+               FontSize="18"
+               HorizontalOptions="Center" />
+
+        <Button Text="Open students list"
+                Clicked="OpenStudents_Clicked" />
+
+    </VerticalStackLayout>
+
+</ContentPage>
